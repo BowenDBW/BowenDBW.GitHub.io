@@ -23,14 +23,17 @@
 <meta property="og:site_name" content="Bowen‘s Blog">
 <meta property="og:description" content="简短介绍[免责声明] 以下吹牛文字由AI生成: 现有的学术文献搜索工具在针对 Arxiv 平台的检索时，往往存在一定的局限性。Arxiv 本身虽提供基础搜索功能，但缺乏 细致的筛选机制，用户难以高效定位特定时间段内的相关研究；Google Scholar 作为通用学术搜索平台，覆盖范围广，但搜索结果 缺乏绝对的关联性，筛选范围过大，往往无法精准呈现最新研究动态，且使用体验较为繁琐；此外，部分第三">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://i.imgur.com/DWzmMEG.png">
+<meta property="og:image" content="https://i.imgur.com/hz9Oi63.png">
+<meta property="og:image" content="https://i.imgur.com/oxw7rRV.png">
+<meta property="og:image" content="https://i.imgur.com/EvlEM4D.png">
+<meta property="og:image" content="https://i.imgur.com/dIMO62U.png">
 <meta property="article:published_time" content="2025-05-09T09:43:06.000Z">
-<meta property="article:modified_time" content="2025-05-09T10:50:40.504Z">
+<meta property="article:modified_time" content="2025-06-16T08:43:02.593Z">
 <meta property="article:author" content="Bowen Deng">
 <meta property="article:tag" content="web">
 <meta property="article:tag" content="research">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://i.imgur.com/DWzmMEG.png">
+<meta name="twitter:image" content="https://i.imgur.com/hz9Oi63.png">
   
   
   
@@ -235,7 +238,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          619 words
+          535 words
         
       </span>
     
@@ -246,7 +249,7 @@
         
         
         
-          6 mins
+          5 mins
         
       </span>
     
@@ -288,15 +291,22 @@
             
               <div class="markdown-body">
                 
-                <p><img src="https://i.imgur.com/DWzmMEG.png" srcset="/img/loading.gif" lazyload alt="主界面UI"></p>
+                <p><img src="https://i.imgur.com/hz9Oi63.png" srcset="/img/loading.gif" lazyload alt="主界面UI"></p>
 <h3 id="简短介绍"><a href="#简短介绍" class="headerlink" title="简短介绍"></a>简短介绍</h3><p><strong>[免责声明]</strong> 以下吹牛文字由AI生成:</p>
 <p>现有的学术文献搜索工具在针对 Arxiv 平台的检索时，往往存在一定的局限性。Arxiv 本身虽提供基础搜索功能，但缺乏 <strong>细致的筛选机制</strong>，用户难以高效定位特定时间段内的相关研究；Google Scholar 作为通用学术搜索平台，覆盖范围广，但搜索结果 <strong>缺乏绝对的关联性，筛选范围过大</strong>，往往无法精准呈现最新研究动态，且使用体验较为繁琐；此外，部分第三方网站虽提供一定的筛选功能，但通常仅基于 <strong>一两种搜索策略</strong>，功能过于简单，难以满足多维度的检索需求。这些问题导致研究人员在查找最新文献、跟踪研究热点时，仍需耗费大量精力筛选和比对相关论文。</p>
 <p>为弥补这些不足，本项目推出 <strong>Daily Arxiv</strong> 网站，打造一个更加精准、高效、且功能丰富的 Arxiv 文献搜索平台。网站每 <strong>4 小时</strong> 自动抓取 Arxiv 最新论文，并存入数据库，确保用户始终可以获取最新研究成果。用户在检索时可根据 <strong>时间范围、话题类别、特定学者</strong> 进行精准筛选，还支持 <strong>模糊关键词匹配</strong> 来查找相关文章或作者。此外，网站提供 <strong>文章收藏功能</strong>，使用户能够保存重要论文，便于后续研究使用。这种模式既 <strong>弥补了 Arxiv 站内搜索的局限性</strong>，也 <strong>突破了订阅学者动态的限制</strong>，使得用户能够更加主动、灵活地探索学术文献。</p>
-<p>未来，本项目还计划引入 <strong>AI 驱动的推荐功能（已经在做了）</strong>，通过智能算法生成个性化推荐列表。用户无需手动筛选大量论文，即可快速定位最具价值的研究成果，从而 <strong>极大提升学术检索的工作效率</strong>，助力科研人员更高效地开展研究工作。</p>
 <h3 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h3><ol>
-<li>多用户系统，一次部署多人使用</li>
-<li>前后端分离，爬虫脚本 和 AI脚本亦与网站后端分离，耦合度低，增删自如</li>
-<li>每个文章信息只存储标题摘要与一个文章编号，占用空间极小，查看 pdf， htm l或 arxiv 介绍页只提供跳转。、</li>
+<li><p>多用户系统，一次部署多人使用</p>
+</li>
+<li><p>前后端分离，爬虫脚本 和 AI脚本亦与网站后端分离，耦合度低，增删自如</p>
+</li>
+<li><p>每个文章信息只存储标题摘要与一个文章编号，占用空间极小，查看 pdf， htm l或 arxiv 介绍页只提供跳转。、</p>
+</li>
+<li><p>[<strong>新</strong>] 支持 ai 对话，ai 检索和 ai 总结</p>
+<p><img src="https://i.imgur.com/oxw7rRV.png" srcset="/img/loading.gif" lazyload alt="ai对话"></p>
+<p><img src="https://i.imgur.com/EvlEM4D.png" srcset="/img/loading.gif" lazyload alt="ai检索"></p>
+<p><img src="https://i.imgur.com/dIMO62U.png" srcset="/img/loading.gif" lazyload alt="ai总结"></p>
+</li>
 </ol>
 
                 
@@ -397,9 +407,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/undefined/Ubuntu%E5%AE%89%E8%A3%85Texlive%E9%85%8D%E7%BD%AEVsCode/" title="Ubuntu安装Texlive配置VsCode.md">
+                      <a href="/undefined/Ubuntu%E5%AE%89%E8%A3%85Texlive%E9%85%8D%E7%BD%AEVsCode/" title="Ubuntu安装Texlive配置VsCode">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Ubuntu安装Texlive配置VsCode.md</span>
+                        <span class="hidden-mobile">Ubuntu安装Texlive配置VsCode</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
